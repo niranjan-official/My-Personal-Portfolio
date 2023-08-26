@@ -1,11 +1,11 @@
 import './App.css'
+import Main from './Pages/Main'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
-      <button>Click</button>
+      <Main/>
     </>
   )
 }

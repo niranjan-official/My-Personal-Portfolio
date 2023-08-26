@@ -1,0 +1,42 @@
+.main{
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .main h3{
+       color: rgb(89, 84, 84);
+       font-size: 1.2rem;
+   }
+   .main h2{
+       font-size: 1.8rem;
+   }
+   .main h4{
+    color: rgb(89, 84, 84);
+    font-size: 1.3rem;
+   }
+   .main h5{
+    color: rgb(205, 200, 200);
+    font-family: sans-serif;
+   }
+   .main .note{
+       width: 50vw;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       margin-top: 5rem;
+   }
+   .main img{
+    height: 2rem;
+    width: auto;
+    margin-right: 1rem;
+   }
+   .main .contact{
+    display: flex;
+    width: fit-content;
+    /* background-color: blue; */
+    padding: 0.5rem;
+    border-radius: 40px;
+   }
+   @media (max-width :480px){
+    .main .note{
+        width: 100vw;
+    }
+   }
