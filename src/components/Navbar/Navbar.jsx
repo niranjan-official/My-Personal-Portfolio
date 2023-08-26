@@ -3,6 +3,7 @@ import './Navbar.css'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../../assets/logo.png'
 
 function Navbar() {
     const navigation = [
@@ -37,9 +38,9 @@ function Navbar() {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
-                                        className="h-8 w-auto"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                                        alt="Your Company"
+                                        className="h-12 w-auto"
+                                        src={logo}
+                                        alt="Logo"
                                     />
                                 </div>
                                 <div className="hidden sm:ml-6 sm:block">
