@@ -6,8 +6,12 @@ import Navbar from '../components/Navbar/Navbar'
 function Main() {
     return (
         <>
-        <Navbar/>
-        <MainPage/>
+            <header>
+                <Navbar />
+            </header>
+            <section>
+                <MainPage />
+            </section>
         </>
     )
 }

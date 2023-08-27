@@ -13,7 +13,7 @@
     font-size: 1.3rem;
    }
    .main h5{
-    color: rgb(205, 200, 200);
+    color: rgb(148, 148, 148);
     font-family: sans-serif;
    }
    .main .note{
@@ -38,5 +38,6 @@
    @media (max-width :480px){
     .main .note{
         width: 100vw;
+        margin-top: 2rem;
     }
    }
