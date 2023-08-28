@@ -17,11 +17,11 @@
     font-family: sans-serif;
    }
    .main .note{
+       height: 90vh;
        width: 50vw;
-       height: 100vh;
        display: flex;
        flex-direction: column;
-       margin-top: 5rem;
+       padding-top: 5rem;
    }
    .main img{
     height: 2rem;

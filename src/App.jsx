@@ -1,11 +1,13 @@
 import './App.css'
-import Main from './Pages/Main'
+import About from './Pages/About/About'
+import Main from './Pages/Home/Main'
 
 function App() {
 
   return (
     <>
       <Main/>
+      <About/>
     </>
   )
 }
