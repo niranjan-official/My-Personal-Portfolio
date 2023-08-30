@@ -1,15 +1,15 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0;
   padding: 0;
 }
-/* body{
+body{
   height: 100vh;
-  background: url("../src/assets/hero.jpg");
+  background: url("../src/assets/hero.jpg") fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
-} */
+}
 

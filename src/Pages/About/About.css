@@ -1,5 +1,75 @@
-
 .about{
     height: 100vh;
+    background: url('../../assets/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about .heading{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.about-content{
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.about-content p{
+    max-width: 45vw;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    max-width: 40vw;
+}
+.profile-pic img{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid aqua;
+    margin-top: 2rem;
 
+}
+@media (max-width:480px){
+    .about .heading{
+        flex-direction: column;
+        margin-top: 0;
+        padding: 2rem;
+    }
+    .about .heading .first{
+        width: 0;
+    }
+    .about .heading h1{
+        font-size: 2.5rem;
+        margin-right: 0;
+    }
+    .about .heading .last{
+        width: 8rem;
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+
+    }
+    .about-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content p{
+        max-width: 100vw;
+        font-size: 1.4rem;
+        padding-left: 2.5rem;
+    }
+    .profile-pic{
+        max-width: 100vw;
+    }
+    .profile-pic img{
+        width: 15rem;
+        height: 15rem;
+        margin-top: 1rem;
+    }
 }

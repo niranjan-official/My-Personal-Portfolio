@@ -21,7 +21,7 @@ function Reveal({ children ,width}) {
     </motion.div>
 
     <motion.div
-    variants={{
+      variants={{
       hidden:{left:0},
       visible:{left:'100%'}
     }}

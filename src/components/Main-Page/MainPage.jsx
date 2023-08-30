@@ -5,9 +5,9 @@ import linkedIn from "../../assets/linkedIn.png";
 import whatsapp from "../../assets/whatsapp.png";
 import github from "../../assets/github.png";
 import Reveal from "../../Styles/Reveal";
+import Typewriter from "typewriter-effect";
 
 function MainPage() {
-
   const contacts = [
     {
       app: "instagram",
@@ -39,14 +39,25 @@ function MainPage() {
           </Reveal>
 
           <Reveal>
+            <div className="name">
             <h1>
-              <span>Hi I'm</span>{" "}
+              <span className="span">Hi I'm&nbsp;</span>
               <span className="text-teal-500">Niranjan Sabarinath</span>
             </h1>
+            </div>
           </Reveal>
 
           <Reveal>
-            <h2>Web Developer</h2>
+            <Typewriter
+              wrapperClassName="Typewriter__wrapper"
+              cursorClassName='Typewriter__cursor'
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Web Developer")
+                  .pauseFor(2500)
+                  .start();
+              }}
+            />
           </Reveal>
           <Reveal>
             <h4 className="mt-10">
