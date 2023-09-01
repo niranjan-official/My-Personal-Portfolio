@@ -1,0 +1,16 @@
+.project{
+    height: max-content;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width:480px){
+    /* .project{
+        height: max-content;
+    } */
+    .cards{
+        flex-direction: column;
+    }
+}

@@ -3,25 +3,13 @@ import "./About.css";
 import "../../App.css";
 import Fade from "../../Styles/Fade";
 import profile from "../../assets/profile.png";
+import Heading from "../../components/Heading/Heading";
 
 function About() {
   return (
     <section>
       <div className="about d-flex">
-        <Fade>
-          <div className="heading">
-            <hr
-              style={{ borderColor: "aqua" }}
-              className="first w-40 mr-4 mt-8"
-            />
-            <h1>About Me</h1>
-
-            <hr
-              style={{ borderColor: "aqua" }}
-              className=" last w-40 ml-4 mt-8"
-            />
-          </div>
-        </Fade>
+          <Heading name="About Me"/>
         <div className="about-content">
           <Fade>
             <div className="profile-pic">

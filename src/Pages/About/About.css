@@ -7,11 +7,6 @@
     background-attachment: fixed; */
     font-family: 'Courier New', Courier, monospace;
 }
-.about .heading{
-    padding: 2.5rem;
-    display: flex;
-    flex-direction: row;
-}
 .about-content{
     width: 100vw;
     display: flex;
@@ -39,24 +34,6 @@
 @media (max-width:480px){
     .about{
         height: max-content;
-    }
-    .about .heading{
-        flex-direction: column;
-        margin-top: 0;
-        padding: 2rem;
-    }
-    .about .heading .first{
-        width: 0;
-    }
-    .about .heading h1{
-        font-size: 2.5rem;
-        margin-right: 0;
-    }
-    .about .heading .last{
-        width: 8rem;
-        margin-left: 0.5rem;
-        margin-top: 1rem;
-
     }
     .about-content{
         flex-direction: column;

@@ -13,6 +13,7 @@ import python from "../../assets/skills/python.png";
 import java from "../../assets/skills/java.png";
 import firebase from "../../assets/skills/firebase.png";
 import Reveal from "../../Styles/Reveal";
+import Heading from "../../components/Heading/Heading";
 
 function Skills() {
   const skills = [
@@ -64,11 +65,7 @@ function Skills() {
   ];
   return (
     <div className="skills">
-      <div className="heading">
-        <hr style={{ borderColor: "aqua" }} className="first w-40 mt-8 mr-4" />
-        <h1>My Skills</h1>
-        <hr style={{ borderColor: "aqua" }} className="last w-40 mt-8 ml-4" />
-      </div>
+      <Heading name="My Skills"/>
       <p>
         Focusing on Front-end mainly on ReactJS along with various other skills
       </p>

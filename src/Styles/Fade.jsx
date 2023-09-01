@@ -13,8 +13,8 @@ function Fade({children,width}) {
       }}
       initial="hidden"
       whileInView="visible"
-      viewport={{once:true}}
-      transition={{duration:2}}
+      // viewport={{once:true}}
+      transition={{duration:1}}
     >
       {children}
     </motion.div>
