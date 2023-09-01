@@ -4,12 +4,14 @@
   padding: 0;
 }
 body{
-  height: 100vh;
+  height: max-content;
   background: url("../src/assets/hero.jpg") fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 3rem;
+  /* margin-top: 5rem; */
 
 }
 

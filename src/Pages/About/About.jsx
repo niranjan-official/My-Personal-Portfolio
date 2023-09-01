@@ -34,7 +34,7 @@ function About() {
                 I'm a Frond-end web developer with a true passion for technolog
                 and all things digital. Over the past one year, I've delved deep
                 into the world of web develpment, honing my skills and exploring
-                the endless possibilities this field offers.
+                the endless possibilities in this field offers.
               </p>
             </div>
           </Fade>

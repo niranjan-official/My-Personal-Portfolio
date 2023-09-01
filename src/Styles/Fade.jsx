@@ -13,7 +13,7 @@ function Fade({children,width}) {
       }}
       initial="hidden"
       whileInView="visible"
-      // viewport={{once:true}}
+      viewport={{once:true}}
       transition={{duration:2}}
     >
       {children}

@@ -1,9 +1,9 @@
 import React from "react";
 import "./MainPage.css";
-import instagram from "../../assets/insta.png";
-import linkedIn from "../../assets/linkedIn.png";
-import whatsapp from "../../assets/whatsapp.png";
-import github from "../../assets/github.png";
+import instagram from "../../assets/contacts/insta.png";
+import linkedIn from "../../assets/contacts/linkedIn.png";
+import whatsapp from "../../assets/contacts/whatsapp.png";
+import github from "../../assets/contacts/github.png";
 import Reveal from "../../Styles/Reveal";
 import Typewriter from "typewriter-effect";
 
