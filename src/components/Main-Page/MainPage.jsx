@@ -57,7 +57,7 @@ function MainPage() {
             />
           </Reveal>
           <Reveal>
-            <h4 className="mt-10">
+            <h4 className="">
               Passionate ReactJS developer adept at fusing futuristic tech into
               web projects. Committed to crafting dynamic, forward-looking
               digital experience

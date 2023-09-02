@@ -20,6 +20,7 @@
 .main h4 {
   color: rgb(89, 84, 84);
   font-size: 1.1rem;
+  margin-top: 2.5rem;
 }
 .main h5 {
   color: rgb(148, 148, 148);
@@ -51,7 +52,7 @@
 }
 @media (max-width: 480px) {
   .main {
-    height: max-content;
+    height: 90vh;
   }
   .main .note {
     width: 100vw;
@@ -63,5 +64,8 @@
   }
   .Typewriter__wrapper {
     font-size: 1.8rem;
+  }
+  .main h4{
+    margin-top: 1.5rem;
   }
 }
