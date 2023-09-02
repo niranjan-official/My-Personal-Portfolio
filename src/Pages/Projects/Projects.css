@@ -1,5 +1,6 @@
 .project {
   height: max-content;
+  color: #fff;
 }
 .cards {
   display: flex;

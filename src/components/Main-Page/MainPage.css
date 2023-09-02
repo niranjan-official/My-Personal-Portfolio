@@ -1,5 +1,6 @@
 .main {
   font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
 .main .note .name h1 {
   display: flex;
