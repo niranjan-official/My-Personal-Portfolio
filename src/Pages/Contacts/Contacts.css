@@ -1,0 +1,19 @@
+.contacts {
+  height: 100vh;
+  padding: 2rem;
+}
+.contacts .form {
+  width: 100%;
+  display: flex;
+  padding-left: 5rem;
+}
+@media (max-width: 480px) {
+  .contacts {
+    padding: 1rem;
+    height: max-content;
+  }
+  .contacts .form {
+    padding-left: 0;
+    justify-content: center;
+  }
+}

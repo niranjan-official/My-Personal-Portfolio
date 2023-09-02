@@ -40,22 +40,19 @@ function MainPage() {
 
           <Reveal>
             <div className="name">
-            <h1>
-              <span className="span">Hi I'm&nbsp;</span>
-              <span className="text-teal-500">Niranjan Sabarinath</span>
-            </h1>
+              <h1>
+                <span className="span">Hi I'm&nbsp;</span>
+                <span className="text-teal-500">Niranjan Sabarinath</span>
+              </h1>
             </div>
           </Reveal>
 
           <Reveal>
             <Typewriter
               wrapperClassName="Typewriter__wrapper"
-              cursorClassName='Typewriter__cursor'
+              cursorClassName="Typewriter__cursor"
               onInit={(typewriter) => {
-                typewriter
-                  .typeString("Web Developer")
-                  .pauseFor(2500)
-                  .start();
+                typewriter.typeString("Web Developer").pauseFor(2500).start();
               }}
             />
           </Reveal>

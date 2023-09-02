@@ -49,15 +49,16 @@ button {
   transition: border-color 0.25s;
   background-color: rgb(0, 26, 32);
   color: rgb(0, 198, 212);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-button:hover{
+button:hover {
   background-color: rgb(0, 26, 31);
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

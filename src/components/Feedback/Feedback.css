@@ -1,0 +1,67 @@
+.feedback {
+  height: 29rem;
+  width: 40rem;
+  padding: 1.7rem;
+  background-color: rgba(0, 206, 206, 0.021);
+  border-radius: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.feedback form {
+  display: flex;
+  flex-direction: row;
+}
+.feedback form .submit {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+  padding: 2rem;
+}
+.feedback form button {
+  font-size: larger;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: rgb(0, 19, 19);
+}
+.feedback form button:hover {
+  background-color: rgb(6, 15, 15);
+  transform: scale(1.1);
+}
+.feedback input {
+  border-radius: 5px;
+  border: 1px solid rgb(0, 199, 199);
+  background-color: rgba(0, 255, 255, 0);
+  padding: 0.8rem;
+}
+.feedback .name,
+.email,
+.subject,
+.message {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  padding-bottom: 2rem;
+}
+.feedback .message input {
+  height: 10rem;
+}
+@media (max-width: 480px) {
+  .feedback {
+    width: 100%;
+    height: max-content;
+  }
+  .feedback form {
+    flex-direction: column;
+  }
+  .feedback form .submit {
+    height: fit-content;
+    justify-content: center;
+    padding: 0;
+  }
+  .feedback .name,
+  .email,
+  .subject,
+  .message {
+    width: 100%;
+  }
+}

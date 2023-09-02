@@ -61,11 +61,11 @@ function Skills() {
       name: "Python",
       percentage: 85,
       logo: python,
-    }
+    },
   ];
   return (
     <div className="skills">
-      <Heading name="My Skills"/>
+      <Heading name="My Skills" />
       <p>
         Focusing on Front-end mainly on ReactJS along with various other skills
       </p>

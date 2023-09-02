@@ -9,7 +9,7 @@ function About() {
   return (
     <section>
       <div className="about d-flex">
-          <Heading name="About Me"/>
+        <Heading name="About Me" />
         <div className="about-content">
           <Fade>
             <div className="profile-pic">
