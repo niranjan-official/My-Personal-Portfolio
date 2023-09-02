@@ -1,0 +1,21 @@
+.scrollButton{
+    position: fixed;
+    width: 1px;
+    left: 93%;
+    bottom:100px;
+    height: 1px;
+    border-radius: 50%;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: none;
+    color: rgb(0, 236, 236);
+}
+.scrollButton:hover{
+    color: rgb(0, 59, 59);
+}
+@media (max-width:480px){
+    .scrollButton{
+        left:80%;
+    }
+}

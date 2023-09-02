@@ -6,12 +6,14 @@ import Fade from "../../Styles/Fade";
 
 function Contacts() {
   return (
-    <div className="contacts">
-      <Heading name="Contact Me" />
-      <div className="form">
-        <Feedback />
+    <section id="contacts">
+      <div className="contacts">
+        <Heading name="Contact Me" />
+        <div className="form">
+          <Feedback />
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

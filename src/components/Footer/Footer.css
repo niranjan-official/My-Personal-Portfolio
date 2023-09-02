@@ -1,0 +1,33 @@
+.footer{
+    background-color: rgba(0, 226, 226, 0.007);
+    height: 8rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(126, 126, 126);
+    margin-left: 1rem;
+}
+.footer img {
+    height: 2rem;
+    width: auto;
+    margin-right: 1rem;
+  }
+  .footer img:hover {
+    height: 2.5rem;
+    width: auto;
+  }
+  .footer .con{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .footer .contact {
+    display: flex;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 40px;
+  }

@@ -7,7 +7,7 @@ import Heading from "../../components/Heading/Heading";
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <div className="about d-flex">
         <Heading name="About Me" />
         <div className="about-content">

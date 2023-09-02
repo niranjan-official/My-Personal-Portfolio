@@ -1,17 +1,16 @@
 import React from "react";
 import "./Navbar.css";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure} from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../../assets/logo.png";
 
 function Navbar() {
   const navigation = [
-    { name: "Home", href: "#", current: true },
-    { name: "About", href: "#", current: false },
-    { name: "Projects", href: "#", current: false },
-    { name: "Skills", href: "#", current: false },
-    { name: "Contact", href: "#", current: false },
+    { name: "Home", href: "#home", current: true },
+    { name: "About", href: "#about", current: false },
+    { name: "Projects", href: "#projects", current: false },
+    { name: "Skills", href: "#skills", current: false },
+    { name: "Contact", href: "#contacts", current: false },
   ];
 
   function classNames(...classes) {

@@ -64,25 +64,28 @@ function Skills() {
     },
   ];
   return (
-    <div className="skills">
-      <Heading name="My Skills" />
-      <p>
-        Focusing on Front-end mainly on ReactJS along with various other skills
-      </p>
-      <div className="skillBars">
-        {skills.map((obj) => (
-          <div className="eachBar">
-            <Reveal>
-              <SkillBar
-                name={obj.name}
-                percentage={obj.percentage}
-                src={obj.logo}
-              />
-            </Reveal>
-          </div>
-        ))}
+    <section id="skills">
+      <div className="skills">
+        <Heading name="My Skills" />
+        <p>
+          Focusing on Front-end mainly on ReactJS along with various other
+          skills
+        </p>
+        <div className="skillBars">
+          {skills.map((obj) => (
+            <div className="eachBar">
+              <Reveal>
+                <SkillBar
+                  name={obj.name}
+                  percentage={obj.percentage}
+                  src={obj.logo}
+                />
+              </Reveal>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

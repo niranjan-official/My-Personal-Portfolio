@@ -5,10 +5,10 @@ import Navbar from "../../components/Navbar/Navbar";
 
 function Main() {
   return (
-    <>
+    <section id="home">
       <Navbar />
       <MainPage />
-    </>
+    </section>
   );
 }
 

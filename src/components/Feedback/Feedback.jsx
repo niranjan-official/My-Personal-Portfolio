@@ -8,16 +8,16 @@ function Feedback() {
       <form action="">
         <div>
           <div className="name">
-            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Name" required/>
           </div>
           <div className="email">
-            <input type="text" placeholder="Email" />
+            <input type="email" placeholder="Email" required/>
           </div>
           <div className="subject">
-            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder="Subject" required/>
           </div>
           <div className="message">
-            <input type="text" placeholder="Message" />
+            <input type="text" placeholder="Message" required/>
           </div>
         </div>
 
