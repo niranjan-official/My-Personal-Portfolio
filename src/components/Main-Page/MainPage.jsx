@@ -33,7 +33,7 @@ function MainPage() {
   return (
     <section>
       <div className="main">
-        <div className="note p-10">
+        <div className="note">
           <Reveal>
             <h3>Welcome to my page</h3>
           </Reveal>
