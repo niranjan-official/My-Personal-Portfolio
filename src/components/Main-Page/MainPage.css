@@ -55,7 +55,7 @@
     height: 90vh;
   }
   .main .note {
-    width: 100vw;
+    width: 100%;
     padding: 2rem;
     padding-top: 1rem;
   }

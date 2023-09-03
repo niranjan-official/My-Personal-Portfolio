@@ -18,7 +18,7 @@ function Navbar() {
   }
   return (
     <header>
-      <Disclosure as="nav" className="bg-black bg-opacity-50 w-screen">
+      <Disclosure as="nav" className="bg-black bg-opacity-50 min-w-full">
         {({ open }) => (
           <>
             <div className="px-2 sm:px-6 lg:px-8">

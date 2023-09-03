@@ -1,15 +1,16 @@
 #root {
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 body{
   height: max-content;
-  max-width: 100%;
   background: url("../src/assets/hero.jpg") fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   user-select: none;
+  background-color: black;
 }
 
