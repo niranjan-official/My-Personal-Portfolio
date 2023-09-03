@@ -12,5 +12,6 @@ body{
   background-attachment: fixed;
   user-select: none;
   background-color: black;
+  overflow-x: hidden;
 }
 
