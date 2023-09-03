@@ -15,7 +15,7 @@ function ProjectCard({ name, note, image, src }) {
             {note}
           </p>
 
-          <a href={src} className="mt-4 w-40 hover:scale-110">
+          <a href={src} className="mt-4 mb2 w-40 hover:scale-110">
             Github
           </a>
         </div>

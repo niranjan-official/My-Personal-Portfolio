@@ -19,7 +19,7 @@ function About() {
           <Fade>
             <div className="about-note">
               <p>
-                I'm a Frond-end web developer with a true passion for technolog
+                I'm a Front-end web developer with a true passion for technology
                 and all things digital. Over the past one year, I've delved deep
                 into the world of web develpment, honing my skills and exploring
                 the endless possibilities in this field offers.

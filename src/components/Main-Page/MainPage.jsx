@@ -35,7 +35,7 @@ function MainPage() {
       <div className="main">
         <div className="note">
           <Reveal>
-            <h3>Welcome to my page</h3>
+            <h3>Welcome !!!</h3>
           </Reveal>
 
           <Reveal>
