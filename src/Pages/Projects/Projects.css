@@ -16,5 +16,6 @@
   .cards {
     flex-direction: column;
     justify-content: space-around;
+    overflow-x: hidden;
   }
 }
