@@ -8,8 +8,8 @@ function Resume() {
     <div className="resume-bg">
       <a href={resume} download="NiranjanS_Resume.pdf">
         <div className="resume-button flex-col shadow-inner shadow-teal-500 text-teal-400">
-          <span>Download</span>
-          <img className="mt-2" src={downloadIcon}/>
+          <span className="p-2 mt-2 pb-1">Download</span>
+          <img className="" src={downloadIcon}/>
         </div>
       </a>
     </div>

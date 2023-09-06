@@ -63,20 +63,18 @@ function MainPage() {
               digital experience
             </h4>
           </Reveal>
-          <div className="mt-20 ml-10">
           <Reveal>
-            <h5 className="text-gray-300">Connect with me:</h5>
-          </Reveal>
-          <Reveal>
-            <div className="mt-2 contact">
-              {contacts.map((obj) => (
-                <a href={obj.link} className="cursor-pointer">
-                  <img src={obj.src} alt={obj.app} />
-                </a>
-              ))}
+            <div className="mt-20 ml-10">
+              <h5 className="text-gray-300">Connect with me:</h5>
+              <div className="mt-2 contact">
+                {contacts.map((obj) => (
+                  <a href={obj.link} className="cursor-pointer">
+                    <img src={obj.src} alt={obj.app} />
+                  </a>
+                ))}
+              </div>
             </div>
           </Reveal>
-          </div>
         </div>
       </div>
     </section>
