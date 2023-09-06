@@ -48,6 +48,7 @@
   display: flex;
   width: fit-content;
   padding: 0.5rem;
+  padding-left: 0;
   border-radius: 40px;
 }
 @media (max-width: 480px) {

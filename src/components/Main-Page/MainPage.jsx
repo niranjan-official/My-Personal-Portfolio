@@ -63,11 +63,12 @@ function MainPage() {
               digital experience
             </h4>
           </Reveal>
+          <div className="mt-20 ml-10">
           <Reveal>
-            <h5 className="mt-24 ml-10 text-gray-300">Connect with me:</h5>
+            <h5 className="text-gray-300">Connect with me:</h5>
           </Reveal>
           <Reveal>
-            <div className="ml-8 mt-2 contact">
+            <div className="mt-2 contact">
               {contacts.map((obj) => (
                 <a href={obj.link} className="cursor-pointer">
                   <img src={obj.src} alt={obj.app} />
@@ -75,6 +76,7 @@ function MainPage() {
               ))}
             </div>
           </Reveal>
+          </div>
         </div>
       </div>
     </section>

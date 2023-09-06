@@ -23,7 +23,7 @@ function Feedback() {
 
         <div className="submit">
           <Fade>
-            <button type="submit" className="shadow-inner shadow-teal-600">
+            <button type="submit" className="shadow-inner shadow-teal-600 text-teal-400">
               Send Message
             </button>
           </Fade>

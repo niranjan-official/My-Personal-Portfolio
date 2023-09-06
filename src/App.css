@@ -4,6 +4,9 @@
   padding: 0;
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   height: max-content;
   background: url("../src/assets/hero.jpg") fixed;
