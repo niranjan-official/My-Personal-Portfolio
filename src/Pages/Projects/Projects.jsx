@@ -46,12 +46,13 @@ function Projects() {
       <div className="project">
         <Heading name="My Projects" />
         <div className="cards p-5">
-          {projects.map((obj) => (
+          {projects.map((obj,key) => (
             <ProjectCard
               name={obj.name}
               note={obj.note}
               image={obj.image}
               src={obj.src}
+              key={key}
             />
           ))}
         </div>

@@ -10,8 +10,8 @@ function ProjectCard({ name, note, image, src }) {
           <img src={image} className="shadow-xl shadow-black hover:scale-105" />
         </div>
         <div className="notes">
-          <p>
             <h1 className="text-teal-500">{name}</h1>
+          <p>
             {note}
           </p>
 

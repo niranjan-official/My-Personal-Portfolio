@@ -67,8 +67,8 @@ function MainPage() {
             <div className="mt-20 ml-10">
               <h5 className="text-gray-300">Connect with me:</h5>
               <div className="mt-2 contact">
-                {contacts.map((obj) => (
-                  <a href={obj.link} className="cursor-pointer">
+                {contacts.map((obj,key) => (
+                  <a href={obj.link} key={key} className="cursor-pointer">
                     <img src={obj.src} alt={obj.app} />
                   </a>
                 ))}

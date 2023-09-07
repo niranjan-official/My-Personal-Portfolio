@@ -34,8 +34,8 @@ function Footer() {
       <div className="con ml-2">
         <h3>Connect with me</h3>
         <div className="mt-2 contact">
-          {contacts.map((obj) => (
-            <a href={obj.link} className="cursor-pointer">
+          {contacts.map((obj,key) => (
+            <a href={obj.link} className="cursor-pointer" key={key}>
               <img src={obj.src} alt={obj.app} />
             </a>
           ))}

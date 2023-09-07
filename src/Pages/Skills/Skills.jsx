@@ -72,8 +72,8 @@ function Skills() {
           skills
         </p>
         <div className="skillBars">
-          {skills.map((obj) => (
-            <div className="eachBar">
+          {skills.map((obj,key) => (
+            <div className="eachBar" key={key}>
               <Reveal>
                 <SkillBar
                   name={obj.name}

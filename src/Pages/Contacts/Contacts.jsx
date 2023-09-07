@@ -18,7 +18,9 @@ function Contacts() {
         <div className="resume-side">
           <Heading name="Resume" />
           <div className="download">
-            <Resume/>
+            <Fade>
+              <Resume />
+            </Fade>
           </div>
         </div>
       </div>

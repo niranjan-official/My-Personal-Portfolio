@@ -1,0 +1,103 @@
+.card-body{
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+.card-body .card-main{
+    height: 25rem;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-body .card-main .profile-pic img{
+    position: relative;
+    top: -100px;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 143, 148);
+    margin: 0;
+}
+.card-body .card-main .card-note{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-shadow: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -95px;
+    padding: 1rem;
+}
+.card-note h1{
+    font-size: 2.7rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card-note span{
+    font-size: large;
+}
+.card-note h2{
+    font-size: 1.4rem;
+    margin: 0;
+}
+.card-note a{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 7px;
+    cursor: pointer;
+}
+.card-note a:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+    border:2px solid black;
+    color: black;
+}
+.email img{
+    height: 2rem;
+    width: auto;
+}
+.card-body button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.card-body button:hover{
+    background-color: rgba(49, 49, 49, 0.479);
+}
+.card-body .close img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+@media (max-width:480px){
+    .card-body .card-main{
+        width: 100%;
+        margin: 2rem;
+    }
+    .card-body .card-main .card-note{
+        margin-top: 4px;
+    }
+    .card-body .card-main .card-note .email{
+        margin-top: 5px;
+    }
+    .card-note h1{
+        font-size: 2rem;
+    }
+    .card-note h2{
+        font-size: 1.2rem;
+    }
+}
