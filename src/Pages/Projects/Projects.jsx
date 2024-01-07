@@ -42,10 +42,9 @@ function Projects() {
     },
   ];
   return (
-    <section id="projects">
-      <div className="project">
+      <div className="project w-screen h-max">
         <Heading name="My Projects" />
-        <div className="cards p-5">
+        <div className="cards flex flex-col sm:flex-row items-center sm:overflow-x-scroll overflow-y-hidden p-5">
           {projects.map((obj,key) => (
             <ProjectCard
               name={obj.name}
@@ -57,7 +56,6 @@ function Projects() {
           ))}
         </div>
       </div>
-    </section>
   );
 }
 

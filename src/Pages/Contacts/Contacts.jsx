@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contacts.css";
 import Heading from "../../components/Heading/Heading";
 import Feedback from "../../components/Feedback/Feedback";
 import Fade from "../../Styles/Fade";
@@ -7,24 +6,19 @@ import Resume from "../../components/Resume/Resume";
 
 function Contacts() {
   return (
-    <section id="contacts">
-      <div className="contacts">
-        <div className="contact-side">
+      <div className="contacts w-screen h-max p-4 flex flex-col items-center sm:items-start">
           <Heading name="Contact Me" />
-          <div className="form">
+          <div className="w-full sm:pl-20 flex items-center">
             <Feedback />
           </div>
-        </div>
-        <div className="resume-side">
+
           <Heading name="Resume" />
-          <div className="download">
+          <div className=" w-full flex justify-center">
             <Fade>
               <Resume />
             </Fade>
           </div>
-        </div>
       </div>
-    </section>
   );
 }
 

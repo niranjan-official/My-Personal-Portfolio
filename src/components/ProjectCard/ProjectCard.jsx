@@ -5,13 +5,13 @@ import Fade from "../../Styles/Fade";
 function ProjectCard({ name, note, image, src }) {
   return (
     <Fade>
-      <div className="card transform hover:scale-110">
-        <div className="picture">
-          <img src={image} className="shadow-xl shadow-black hover:scale-105" />
+      <div className="card h-max p-4 rounded-lg shadow-md mr-4 mb-8 sm:mb-4  transform hover:scale-110">
+        <div>
+          <img src={image} className="shadow-md shadow-black hover:scale-105 h-40 sm:h-48 w-full" />
         </div>
-        <div className="notes">
+        <div className="notes p-4 flex flex-col">
             <h1 className="text-teal-500">{name}</h1>
-          <p>
+          <p className="mt-4">
             {note}
           </p>
 

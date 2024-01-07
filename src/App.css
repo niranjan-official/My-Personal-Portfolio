@@ -8,7 +8,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  height: max-content;
+  /* height: max-content; */
   background: url("../src/assets/hero.jpg") fixed;
   background-position: center;
   background-repeat: no-repeat;

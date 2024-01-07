@@ -64,16 +64,11 @@ function Skills() {
     },
   ];
   return (
-    <section id="skills">
-      <div className="skills">
+      <div className="w-screen h-max">
         <Heading name="My Skills" />
-        <p>
-          Focusing on Front-end mainly on ReactJS along with various other
-          skills
-        </p>
-        <div className="skillBars">
+        <div className="flex flex-wrap p-4 justify-evenly">
           {skills.map((obj,key) => (
-            <div className="eachBar" key={key}>
+            <div className="p-4" key={key}>
               <Reveal>
                 <SkillBar
                   name={obj.name}
@@ -85,7 +80,6 @@ function Skills() {
           ))}
         </div>
       </div>
-    </section>
   );
 }
 

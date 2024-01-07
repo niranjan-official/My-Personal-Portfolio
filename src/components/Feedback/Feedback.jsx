@@ -46,56 +46,59 @@ function Feedback() {
       );
   };
   return (
-    <div className="feedback">
-      <form onSubmit={handleSubmit} ref={form}>
-        <div>
-          <div className="name">
-            <input
-              value={formData.name}
-              onChange={(e) => setData({ name: e.target.value })}
-              name="name"
-              type="text"
-              placeholder="Your Name"
-              required
-            />
-          </div>
-          <div className="email">
-            <input
-              value={formData.email}
-              onChange={(e) => setData({ email: e.target.value })}
-              name="email"
-              type="email"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div className="subject">
-            <input
-              value={formData.subject}
-              onChange={(e) => setData({ subject: e.target.value })}
-              name="subject"
-              type="text"
-              placeholder="Subject"
-              required
-            />
-          </div>
-          <div className="message">
-            <input
-              value={formData.message}
-              onChange={(e) => setData({ message: e.target.value })}
-              name="message"
-              type="text"
-              placeholder="Message"
-              required
-            />
-          </div>
+    <div className="feedback w-full sm:w-max p-6 rounded-xl">
+      <form
+        onSubmit={handleSubmit}
+        ref={form}
+        className="flex flex-col sm:flex-row"
+      >
+        <div className="flex flex-col">
+          <input
+            value={formData.name}
+            onChange={(e) => setData({ name: e.target.value })}
+            name="name"
+            type="text"
+            placeholder="Your Name"
+            className="mb-8 w-full sm:w-96 rounded-md border-2 border-teal-600 p-3 bg-transparent"
+            required
+          />
+
+          <input
+            value={formData.email}
+            onChange={(e) => setData({ email: e.target.value })}
+            name="email"
+            type="email"
+            placeholder="Email"
+            className="mb-8 w-full sm:w-96 rounded-md border-2 border-teal-600 p-3 bg-transparent"
+            required
+          />
+
+          <input
+            value={formData.subject}
+            onChange={(e) => setData({ subject: e.target.value })}
+            name="subject"
+            type="text"
+            placeholder="Subject"
+            className="mb-8 w-full sm:w-96 rounded-md border-2 border-teal-600 p-3 bg-transparent"
+            required
+          />
+
+          <input
+            value={formData.message}
+            onChange={(e) => setData({ message: e.target.value })}
+            name="message"
+            type="text"
+            placeholder="Message"
+            className=" w-full sm:w-96 h-40 rounded-md border-2 border-teal-600 p-3 bg-transparent"
+            required
+          />
         </div>
 
-        <div className="submit">
+        <div className="submit flex justify-center items-center p-8">
           <Fade>
             <button
               type="submit"
-              className="shadow-inner shadow-teal-600 text-teal-400"
+              className="h-32 w-32 shadow-inner shadow-teal-600 text-teal-400 rounded-full hover:scale-110"
             >
               Send Message
             </button>

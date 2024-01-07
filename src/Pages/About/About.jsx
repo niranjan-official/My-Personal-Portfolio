@@ -7,28 +7,26 @@ import Heading from "../../components/Heading/Heading";
 
 function About() {
   return (
-    <section id="about">
-      <div className="about d-flex">
+      <div className="h-max w-screen about">
         <Heading name="About Me" />
-        <div className="about-content">
-          <Fade>
-            <div className="profile-pic">
-              <img src={profile} alt="" />
-            </div>
+        <div className="w-full flex sm:flex-row-reverse flex-col sm:justify-evenly items-center">
+            <div className="sm:w-1/2 flex justify-center items-center overflow-hidden">
+         <Fade>
+              <img src={profile} alt="" className="h-80 w-80 rounded-full border-2 border-teal-500"/>
           </Fade>
+            </div>
+            <div className="sm:w-1/2 sm:text-2xl text-xl p-8">
           <Fade>
-            <div className="about-note">
-              <p>
+              <p className="text-justify">
                 I'm a Front-end web developer with a true passion for technology
                 and all things digital. Over the past one year, I've delved deep
                 into the world of web develpment, honing my skills and exploring
                 the endless possibilities in this field offers.
               </p>
-            </div>
           </Fade>
+            </div>
         </div>
       </div>
-    </section>
   );
 }
 
