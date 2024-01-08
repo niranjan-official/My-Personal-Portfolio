@@ -55,7 +55,7 @@ button {
 button:hover {
   background-color: rgb(0, 26, 31);
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
   }
@@ -65,4 +65,4 @@ button:hover {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

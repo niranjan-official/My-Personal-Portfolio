@@ -5,13 +5,25 @@ import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contacts from "./Pages/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import ScrollUp from "./Styles/ScrollUp/ScrollUp";
+import Loading from "./components/loading/Loading";
 
 function App() {
-  return (
+
+  const [load,setLoad] = useState(true)
+  setInterval(() => {
+    setLoad(false);
+  }, 4000);
+
+    return (
     <Fragment>
-      <Main/>
+      {
+        load && <Loading/>
+      }
+      {
+        !load && <Main/>
+      }
       <About/>
       <Skills/>
       <Projects/>
@@ -19,7 +31,7 @@ function App() {
       <Footer/>
       <ScrollUp/>
     </Fragment>
-  );
+    )
 }
 
 export default App;
