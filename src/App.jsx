@@ -1,36 +1,22 @@
-import "./App.css";
-import Main from './Pages/Home/Main'
-import About from './Pages/About/About'
-import Skills from "./Pages/Skills/Skills";
-import Projects from "./Pages/Projects/Projects";
-import Contacts from "./Pages/Contacts/Contacts";
-import Footer from "./components/Footer/Footer";
-import { Fragment, useState } from "react";
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Projects from "./Pages/Projects";
+import Contacts from "./Pages/Contacts";
+import Footer from "./components/Footer";
 import ScrollUp from "./Styles/ScrollUp/ScrollUp";
-import Loading from "./components/loading/Loading";
-
+import Navbar from "./components/Navbar";
 function App() {
 
-  const [load,setLoad] = useState(true)
-  setInterval(() => {
-    setLoad(false);
-  }, 4000);
-
     return (
-    <Fragment>
-      {
-        load && <Loading/>
-      }
-      {
-        !load && <Main/>
-      }
+    <div className="w-screen h-max text-white">
+      <Navbar/>
+      <Home/>
       <About/>
-      <Skills/>
       <Projects/>
       <Contacts/>
       <Footer/>
       <ScrollUp/>
-    </Fragment>
+    </div>
     )
 }
 

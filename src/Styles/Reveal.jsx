@@ -12,31 +12,11 @@ function Reveal({ children, width }) {
         }}
         initial="hidden"
         whileInView="visible"
-        // viewport={{once:true}}
+        viewport={{once:true}}
         transition={{ duration: 0.5, delay: 0.25 }}
       >
         {children}
       </motion.div>
-
-      <motion.div
-        variants={{
-          hidden: { left: 0 },
-          visible: { left: "100%" },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        // viewport={{once:true}}
-        transition={{ duration: 0.5, ease: "easeIn" }}
-        style={{
-          position: "absolute",
-          top: 4,
-          bottom: 4,
-          left: 0,
-          right: 0,
-          backgroundColor: "rgb(0, 187, 187)",
-          zIndex: 20,
-        }}
-      ></motion.div>
     </div>
   );
 }
